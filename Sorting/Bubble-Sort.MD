@@ -10,10 +10,6 @@ Explanation https://www.studytonight.com/data-structures/bubble-sort
 - If the given array has to be sorted in ascending order, then bubble sort will start by comparing the first element of the array with the second element, if the first element is greater than the second element, it will swap both the elements, and then move on to compare the second and the third element, and so on.
 - If we have total `n` elements, then we need to repeat this process for `n-1` times.
 
-
-
-
-If we have total n elements, then we need to repeat this process for n-1 times.
  ```js
 const bubbleSort = (list) => {
     for (let i = 0; i < list.length; i++) {
